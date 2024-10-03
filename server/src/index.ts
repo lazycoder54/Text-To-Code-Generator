@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://text-to-code-generator.vercel.app",
+      "https://ai-text-to-code-generator.vercel.app",
       "http://localhost:5173",
     ],
   })
